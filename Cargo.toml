@@ -10,7 +10,9 @@ edition = "2021"
 eframe = { version = "0.24.0", features = ["wayland"] }
 
 [dependencies.stfi-proc]
-path = "../stf-proc" 
+# path = "../stf-proc" 
+git = "https://github.com/scuggo-labs/tool-framework-interface-proc"
+
 
 [profile.release]
 opt-level = 'z'

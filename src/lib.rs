@@ -1,4 +1,4 @@
-pub use stf_proc::main;
+pub use stfi_proc::main;
 
 pub use eframe;
 pub trait STF {
